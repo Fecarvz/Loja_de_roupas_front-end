@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/cf34d50383.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <title>Loja de Roupa Online</title>
+</head>
+<body>
+  <header class="max-width bg" id="home">
+    <div class="container">
+      <nav class="menu">
+      <div class="logo"></div>
+        <div class="desktop-menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Novidades</a></li>
+            <li><a href="#Service">Destaque</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="mobile-menu" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+          <ul id="myLinks">
+            <li><a href="#home"></a>Home</li>
+            <li><a href="#about"></a>Novidades</li>
+            <li><a href="#Service"></a>Destaque</li>
+            <li><a href="#contact"></a>Contato</li>
+          </ul> 
+        </div> 
+      </nav>
+      <div class="call">
+        <div class="left">
+          <h1 class="text-gd color-azul">Novas Coleções</h1>
+          <p class="color-azul text-pq">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem architecto consequatur excepturi, eligendi tempora accusamus cupiditate veritatis provident laboriosam animi quis totam, incidunt nulla, dolores expedita? Vitae voluptas ipsam rerum!</p>
+          <button>Compre Agora</button>
+        </div>
+        <div class="right">
+          <div class="imagem">
+            <img src="assets/r9.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <button id="back-to-top">^</button>
+  </header>
+  
+  <section class="max-width bg2" id="about">
+    <div class="container">
+      <div class="titulo">
+        <h2 class="text-md color-cinza-2">Novidades</h2>
+        <div class="line">
+          <div class="text-titulo">Roupas</div>
+        </div>
+      </div>
+      <div class="down">
+        <div class="box">
+          <img src="assets/b1.png" alt="">
+          <div class="text">
+            <h2>Conjunto</h2>
+            <p>Coleção de Inverno</p>
+            <i class="fa-solid fa-right-long"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="assets/b2.png" alt="">
+          <div class="text">
+            <h2>Conjunto</h2>
+            <p>Coleção de Inverno</p>
+            <i class="fa-solid fa-right-long"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="assets/b3.png" alt="">
+          <div class="text">
+            <h2>Conjunto</h2>
+            <p>Coleção de Inverno</p>
+            <i class="fa-solid fa-right-long"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-width bg" id="Service">
+    <div class="container">
+        <div class="content">
+            <div class="titulo">
+                <h2 class="text-md color-cinza-1">Destaque</h2>
+                <div class="line">
+                    <div class="text-titulo">Promoções</div>
+                </div>
+            </div>
+                <input type="radio" name="slider" id="item-1" checked>
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-3">
+                <div class="cards">
+                    <label class="card" for="item-1" id="song-1">
+                        <img src="assets/p1.jpg" alt="">
+                        <button>Comprar Agora</button>
+                    </label>
+
+                    <label class="card" for="item-2" id="song-2">
+                        <img src="assets/p2.jpg">
+                        <button>Comprar Agora</button>
+                    </label>
+
+                    <label class="card" for="item-3" id="song-3">
+                        <img src="assets/p3.jpg">
+                        <button>Comprar Agora</button>
+                    </label>
+                </div>
+        </div>
+    </div>
+</section>
+
+<section class="max-width bg2" id="contact">
+  <div class="container">
+    <div class="titulo">
+      <h2 class="text-md color-cinza-2">Contato</h2>
+      <div class="line">
+        <div class="text-titulo">Fale Conosco</div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="left">
+        <div class="box">
+          <h1>Nosso Newsletter</h1>
+          <form action="">
+            <input type="text" placeholder="Nome Completo">
+            <input type="email" placeholder="Seu E-Mail">
+            <input type="submit" value="Inscreva-se">
+          </form>
+          <h1>Siga-nos</h1>
+          <div class="social">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="box">
+          <h1>Nosso Endereço</h1>
+          <div class="info">
+            <div class="icons">
+              <i class="fa-solid fa-envelope"></i>
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="text">
+              <p>felipe.ggcarvalho@gmail.com</p>
+              <p>+55 14 98825-6894</p>
+              <p>São Paulo, Brasil</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <footer>
+    <div class="container">
+      <img src="assets/logo-roupa.png" alt="">
+      <p class="text-pq">Copyright &copy; 2022 <span>FRONT</span> All Rights Reserved</p>
+      <p class="text-pq">Tel: 14 98825-6894</p>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script>
+
+    // menu-mobile
+
+    function myFunction(){
+      var x = document.getElementById("myLinks")
+
+      if (x.style.display === "block"){
+        x.style.display = "none"
+      } else {
+        x.style.display = "block"
+      }
+    }
+    // back-to-top
+
+    var btn = document.querySelector("#back-to-top")
+
+    btn.addEventListener("click", function(){
+      window.scrollTo(0, 0)
+    })
+  </script>
+</body>
+</html>
